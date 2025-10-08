@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&display=swap');
+
+.styled-table {
+  width: 50%;
+  border-collapse: collapse; /* Prevents double borders */ 
+  border: 1px solid black;
+  border-radius: 10px; /* Adjust the value for desired curvature */
+  overflow: hidden;
+}
+
+.styled-table td {
+  border: 3px solid yellow; /* Sets the border on cells */
+  padding: 50px;           /* Controls the space inside cells */
+}
+
+
+.body{
+  background-image: url(assets/img/bck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.z{
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-size: xx-large;
+}
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  position:absolute;
+}
+
+.box2{
+  width: 88px;
+  height: 88px;
+  background-color: brown;
+  position: sticky;
+  top: 20px;
+  bottom: 10px;
+  right: 5px;
+  border-radius: 50%;
+  z-index: -1;
+}
